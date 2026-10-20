@@ -1,0 +1,5 @@
+upstream_repo: frameworks/ex
+framework_extractive: true
+package: org.blisslabs.ag.ext.frameworks.ex.framework
+source: https://android.googlesource.com/platform/frameworks/ex
+build_type: extractive_apex
