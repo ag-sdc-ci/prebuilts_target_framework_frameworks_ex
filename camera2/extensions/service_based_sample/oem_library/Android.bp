@@ -30,7 +30,7 @@ java_library {
         local_include_dirs: ["src/java"],
         include_dirs: [
            "frameworks/native/aidl/gui",  // For SurfaceView AIDL
-           "frameworks/av/camera/aidl",   // For CaptureRequest AIDL
+           "prebuilts/target/framework/frameworks/av/camera/aidl",   // For CaptureRequest AIDL
         ]
     },
     system_ext_specific: true,
